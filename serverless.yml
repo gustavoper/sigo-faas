@@ -1,4 +1,6 @@
 service: sigo-indtexbr
+app: sigo
+
 
 custom:
   defaultStage: dev

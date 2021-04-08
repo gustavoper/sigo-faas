@@ -14,7 +14,6 @@ let data = event;
     data = JSON.parse(finalData);
 }
 
-
   console.error(event);
   
   const params = {
@@ -50,7 +49,7 @@ let data = event;
                     "Access-Control-Allow-Origin" : "*", // Required for CORS support to work
                     "Access-Control-Allow-Credentials" : true // Required for cookies, authorization headers with HTTPS
                 },
-    body: JSON.stringify(respContent)
+    body: JSON.stringify(content)
   };
   
   callback(null, response);
